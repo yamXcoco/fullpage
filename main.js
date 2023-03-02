@@ -7,7 +7,7 @@ $(function () {
     // scrollHorizontally: true,
     navigation: true,
 
-    sectionsColor: ['#F6C61E', '#F6C61E', '#F6C61E', '#F6C61E'],
+    sectionsColor: ['#F6C61E', '#F6C61E', '#F6C61E', '#F6C61E', '#ddd'],
     afterLoad: function (anchorLink, index) {
       console.log('현재 섹션번호는 ' + index)
       if (index == 5) {

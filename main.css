@@ -74,8 +74,27 @@ header nav ul li:hover {
   left: 0;
 }
 
+footer .ulu1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10em;
+}
+footer .ulu1 p {
+  /* text-align: center; */
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+footer li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 360%;
+  color: #7e84a5;
+}
 /* .gotop */
-.gotop {
+/* .gotop {
   position: fixed;
   right: 100px;
   bottom: 100px;
@@ -90,4 +109,4 @@ header nav ul li:hover {
   display: none;
   opacity: 80%;
   z-index: 100;
-}
+} */
