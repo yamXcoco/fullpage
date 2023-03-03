@@ -42,9 +42,9 @@ $(function () {
         $('.section3 .imgs').removeClass('active')
       }
 
-      if (index != 4) {
-        $('.section4 img').removeClass('active')
-      }
+      // if (index != 4) {
+      //   $('.section4 img').removeClass('active')
+      // }
     },
   })
 })
