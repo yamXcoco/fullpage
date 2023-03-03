@@ -72,9 +72,10 @@ header nav ul li:hover {
 }
 .section1 .social li {
   padding: 0.2em;
+  z-index: 20;
 }
 .section1 .social img:hover {
-  filter: drop-shadow(2px 2px 5px #000);
+  filter: drop-shadow(1px 1px 5px #6d6d6d);
 }
 .section1 .friends {
   max-width: 600px;
