@@ -1,4 +1,16 @@
 $(function () {
+  //햄버거
+  $('.hamburger').on('click', function () {
+    $('.menu').addClass('on')
+    // 햄버거 아이콘을 클릭하면 클래스 on이라는 추가함
+  })
+
+  $('.close').on('click', function () {
+    $('.menu').removeClass('on')
+    // 클로즈 버튼을 클릭하면 클래스 on 삭제
+  })
+
+  //풀페이지
   $('#fullpage').fullpage({
     //options here
     anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
